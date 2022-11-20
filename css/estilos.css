@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.header{
+    height: 100px;
+    background: #044c63;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+    margin-left: 0px;
+}
+
+
+.menu__princ{
+    display: block;
+    padding: 5px;
+    background: #73B108;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    height: 55px;
+    background: none;
+    font-size: 20px;
+    border: none;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.menu__princ:hover, .select{
+    background: white;
+    color:  #73B108;
+}
+
+.footer {
+    position: fixed;    
+    left: 0;
+    bottom: 0;
+    background: #044c63;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.iframe{
+    border: none;
+    margin-top: -1px;
+    float: left;
+    height: 520px;
+}
+
+
+/*---------------Estilos hoja de vida----------------*/
+
+.name{
+    width: 100%;
+    height: 300px;
+    background: #3A3A3A;
+    transform: skewY(-5deg);
+}
+.imag__cv{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    height: 6px;
+    width: 130px;
+    transform: skewY(5deg);
+}
+
+.name .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left:25%;   
+
+}
+
+ .p-1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 40px;
+    transform: skewY(5deg);
+    margin-bottom: 0px;
+
+}
+
+ .p-2{
+    color: #fff;
+    font-size: 22px;
+    transform: skewY(   5deg);
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.p-3    {
+    color: #fff;
+    font-size: 15px;
+    transform: skewY(   5deg);
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+.infocv{
+    width: 90%;
+    height: auto;
+    background:#3A3A3A;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 35  px;
+}
+
+.titulo__seccion{
+    color: #fff;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #fff solid;
+    margin-top: 5px ;
+}
+
+.titulo__info{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    display: inline;    
+    margin-right: 10px;
+}
+
+.info__info{
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    display: inline;    
+}
+
+
+
